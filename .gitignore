@@ -1,5 +1,4 @@
-*.exe
-*.dll
+project1.exe
 *.so
 *.dylib
 *.lrs
