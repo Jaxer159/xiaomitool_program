@@ -1,7 +1,7 @@
 object Form1: TForm1
-  Left = 93
+  Left = 433
   Height = 535
-  Top = 317
+  Top = 306
   Width = 821
   Caption = 'Xiaomi Tool'
   ClientHeight = 535
@@ -26,11 +26,11 @@ object Form1: TForm1
     ParentColor = False
   end
   object Label2: TLabel
-    Left = 855
+    Left = 791
     Height = 20
-    Top = 512
+    Top = 515
     Width = 30
-    Caption = '0.1.1'
+    Caption = '0.1.2'
     ParentColor = False
   end
   object Button2: TButton
