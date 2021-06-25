@@ -26,11 +26,11 @@ object Form1: TForm1
     ParentColor = False
   end
   object Label2: TLabel
-    Left = 791
+    Left = 800
     Height = 20
     Top = 515
-    Width = 30
-    Caption = '0.1.2'
+    Width = 19
+    Caption = '0.2'
     ParentColor = False
   end
   object Button2: TButton
