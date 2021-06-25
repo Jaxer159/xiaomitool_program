@@ -21,8 +21,8 @@ object Form1: TForm1
     Left = 336
     Height = 20
     Top = 0
-    Width = 153
-    Caption = 'Удаление приожений'
+    Width = 152
+    Caption = 'Removing applications'
     ParentColor = False
   end
   object Label2: TLabel
