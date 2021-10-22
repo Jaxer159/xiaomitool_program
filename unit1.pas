@@ -19,6 +19,7 @@ type
     Button13: TButton;
     Button14: TButton;
     Button15: TButton;
+    Button16: TButton;
     Button2: TButton;
     Button3: TButton;
     Button4: TButton;
@@ -36,6 +37,7 @@ type
     procedure Button13Click(Sender: TObject);
     procedure Button14Click(Sender: TObject);
     procedure Button15Click(Sender: TObject);
+    procedure Button16Click(Sender: TObject);
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
@@ -132,7 +134,12 @@ end;
 
 procedure TForm1.Button15Click(Sender: TObject);
 begin
-  ExecuteProcess('/data/ADB_status.bat', '');
+  ExecuteProcess('/data/ADB_devices.bat', '');
+end;
+
+procedure TForm1.Button16Click(Sender: TObject);
+begin
+  ExecuteProcess('/data/Fastboot_devices.bat', '');
 end;
 
 end.
