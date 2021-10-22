@@ -134,12 +134,12 @@ end;
 
 procedure TForm1.Button15Click(Sender: TObject);
 begin
-  ExecuteProcess('/data/ADB_devices.bat', '');
+  ExecuteProcess('data/ADB_devices.bat', '');
 end;
 
 procedure TForm1.Button16Click(Sender: TObject);
 begin
-  ExecuteProcess('/data/Fastboot_devices.bat', '');
+  ExecuteProcess('data/Fastboot_devices.bat', '');
 end;
 
 end.
