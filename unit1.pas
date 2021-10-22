@@ -18,6 +18,7 @@ type
     Button12: TButton;
     Button13: TButton;
     Button14: TButton;
+    Button15: TButton;
     Button2: TButton;
     Button3: TButton;
     Button4: TButton;
@@ -28,11 +29,13 @@ type
     Button9: TButton;
     Label1: TLabel;
     Label2: TLabel;
+    Label3: TLabel;
     procedure Button10Click(Sender: TObject);
     procedure Button11Click(Sender: TObject);
     procedure Button12Click(Sender: TObject);
     procedure Button13Click(Sender: TObject);
     procedure Button14Click(Sender: TObject);
+    procedure Button15Click(Sender: TObject);
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
@@ -125,6 +128,11 @@ end;
 procedure TForm1.Button14Click(Sender: TObject);
 begin
   ExecuteProcess('data/Delete_Google_Music.bat', '');
+end;
+
+procedure TForm1.Button15Click(Sender: TObject);
+begin
+  ExecuteProcess('/data/ADB_status.bat', '');
 end;
 
 end.

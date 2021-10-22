@@ -1,153 +1,170 @@
 object Form1: TForm1
-  Left = 433
+  Left = 423
   Height = 535
-  Top = 306
-  Width = 821
+  Top = 190
+  Width = 776
   Caption = 'Xiaomi Tool'
   ClientHeight = 535
-  ClientWidth = 821
+  ClientWidth = 776
   DesignTimePPI = 120
   LCLVersion = '2.0.12.0'
   object Button1: TButton
-    Left = 24
+    Left = 8
     Height = 31
-    Top = 32
+    Top = 88
     Width = 94
     Caption = 'Duo'
     OnClick = Button1Click
     TabOrder = 0
   end
   object Label1: TLabel
-    Left = 336
+    Left = 296
     Height = 20
-    Top = 0
+    Top = 56
     Width = 152
     Caption = 'Removing applications'
     ParentColor = False
   end
   object Label2: TLabel
-    Left = 800
+    Left = 752
     Height = 20
-    Top = 515
+    Top = 512
     Width = 19
     Caption = '0.2'
     ParentColor = False
   end
   object Button2: TButton
-    Left = 136
+    Left = 112
     Height = 31
-    Top = 32
+    Top = 88
     Width = 94
     Caption = 'Mi Credit'
     OnClick = Button2Click
     TabOrder = 1
   end
   object Button3: TButton
-    Left = 248
+    Left = 320
     Height = 31
-    Top = 32
+    Top = 88
     Width = 94
     Caption = 'Mi Pay'
     OnClick = Button3Click
     TabOrder = 2
   end
   object Button4: TButton
-    Left = 360
+    Left = 424
     Height = 31
-    Top = 32
+    Top = 88
     Width = 94
     Caption = 'Yandex'
     OnClick = Button4Click
     TabOrder = 3
   end
   object Button5: TButton
-    Left = 472
+    Left = 544
     Height = 31
-    Top = 32
+    Top = 88
     Width = 94
     Caption = 'Mi Recycle'
     OnClick = Button5Click
     TabOrder = 4
   end
   object Button6: TButton
-    Left = 584
+    Left = 656
     Height = 31
-    Top = 32
+    Top = 88
     Width = 110
     Caption = 'Google Photos'
     OnClick = Button6Click
     TabOrder = 5
   end
   object Button7: TButton
-    Left = 712
+    Left = 656
     Height = 31
-    Top = 32
+    Top = 128
     Width = 104
     Caption = 'Google App'
     OnClick = Button7Click
     TabOrder = 6
   end
   object Button8: TButton
-    Left = 24
+    Left = 8
     Height = 31
-    Top = 80
+    Top = 128
     Width = 94
     Caption = 'Miui Forum'
     OnClick = Button8Click
     TabOrder = 7
   end
   object Button9: TButton
-    Left = 136
+    Left = 112
     Height = 31
-    Top = 80
+    Top = 128
     Width = 94
     Caption = 'ShareMe'
     OnClick = Button9Click
     TabOrder = 8
   end
   object Button10: TButton
-    Left = 248
+    Left = 216
     Height = 31
-    Top = 80
+    Top = 88
     Width = 94
     Caption = 'Facebook'
     OnClick = Button10Click
     TabOrder = 9
   end
   object Button11: TButton
-    Left = 360
+    Left = 216
     Height = 31
-    Top = 80
+    Top = 128
     Width = 94
     Caption = 'Gmail'
     OnClick = Button11Click
     TabOrder = 10
   end
   object Button12: TButton
-    Left = 472
+    Left = 320
     Height = 31
-    Top = 80
+    Top = 128
     Width = 94
     Caption = 'Talkback'
     OnClick = Button12Click
     TabOrder = 11
   end
   object Button13: TButton
-    Left = 584
+    Left = 424
     Height = 31
-    Top = 80
+    Top = 128
     Width = 110
     Caption = 'Google Movies'
     OnClick = Button13Click
     TabOrder = 12
   end
   object Button14: TButton
-    Left = 712
+    Left = 544
     Height = 31
-    Top = 80
+    Top = 128
     Width = 104
     Caption = 'Google Music'
     OnClick = Button14Click
     TabOrder = 13
+  end
+  object Label3: TLabel
+    Left = 360
+    Height = 20
+    Top = 0
+    Width = 40
+    Caption = 'Status'
+    ParentColor = False
+  end
+  object Button15: TButton
+    Left = 8
+    Height = 31
+    Top = 24
+    Width = 94
+    Caption = 'ADB'
+    OnClick = Button15Click
+    TabOrder = 14
   end
 end
