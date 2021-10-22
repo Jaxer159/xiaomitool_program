@@ -30,7 +30,7 @@ object Form1: TForm1
     Height = 20
     Top = 512
     Width = 19
-    Caption = '0.2'
+    Caption = '0.3'
     ParentColor = False
   end
   object Button2: TButton
